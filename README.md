@@ -11,6 +11,8 @@ Note: I am not actively working on this. I wrote it back in 2013 and originally 
 
 ## Quick Usage:
 
+**Back up your layout file before editing!**
+
 1) In DDO, /ui layout save testLayout 
 2) Open program, Open file, choose testLayout.layout 
 3) Move stuff around
