@@ -1,6 +1,13 @@
 # DDOLayoutEditor
 Requires .NET 4.0!
-If you are running in Windows XP, you must have SP3 to install .NET 4.0
+
+Here is an earlier video of it in action. It has change a lot since the video, but you can get a general idea before downloading and running.  
+[YouTube](http://www.youtube.com/watch?v=VM2LzQq11Xk&feature=youtu.be)
+
+And here is the discussion on the DDO forums:  
+[Forum Link](https://www.ddo.com/forums/showthread.php/408466-Layout-Editor-Download-Now)
+
+Note: I am not actively working on this. I wrote it back in 2013 and originally posted it on Codeplex. Since they are shutting down and archiving projects, I grabbed the source, made a few tweaks, updated the toolkit and published it here. If you have a change you'd like to make, feel free to submit a pull request. I'll take a look at it.
 
 --------------------------------
 Quick Usage:
