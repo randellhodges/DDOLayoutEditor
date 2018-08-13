@@ -1,0 +1,57 @@
+﻿<xctk:ChildWindow x:Class="DDOLayoutEditor.SettingsEditor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        Height="462" Width="566" Caption="Settings" >
+    <Canvas x:Name="mainCanvas">
+        <Label Content="Grid" Canvas.Left="21" Canvas.Top="10" FontWeight="Bold"/>
+        <CheckBox Name="gridVisible" Content="Visible" Canvas.Left="140" Canvas.Top="15"/>
+        
+        <Label Content="Line Color:" Canvas.Left="21" Canvas.Top="34"/>
+        <xctk:ColorPicker Name="gridLineColor" Canvas.Left="140" Canvas.Top="36" DisplayColorAndName="True" Width="177" UsingAlphaChannel="False"  />
+
+        <Label Content="Line Transparency:" Canvas.Left="21" Canvas.Top="60"/>
+        <xctk:IntegerUpDown Name="gridTransparency" Value="50" Increment="1" Minimum="1" Maximum="100" Canvas.Left="140" Canvas.Top="63" Width="55"/>
+
+        <Label Content="Cell Width:" Canvas.Left="21" Canvas.Top="85"/>
+        <xctk:IntegerUpDown Name="gridCellWidth" Value="10" Increment="1" Minimum="1" Canvas.Left="140" Canvas.Top="88" Width="55"/>
+
+        <Label Content="Cell Height:" Canvas.Left="21" Canvas.Top="110"/>       
+        <xctk:IntegerUpDown Name="gridCellHeight" Value="10" Increment="1" Minimum="1" Canvas.Left="140" Canvas.Top="113" Width="55"/>
+        
+        <Label Content="Snap" Canvas.Left="21" Canvas.Top="158" FontWeight="Bold"/>
+        <CheckBox Name="snapEnabled" Content="Enabled" Canvas.Left="140" Canvas.Top="164"/>
+        
+        <Label Content="Horizontal:" Canvas.Left="21" Canvas.Top="182"/>
+        <xctk:IntegerUpDown Name="snapHorizontal" Value="10" Increment="1" Minimum="1" Canvas.Left="140" Canvas.Top="185" Width="55"/>
+        
+        <Label Content="Vertical:" Canvas.Left="21" Canvas.Top="207"/>        
+        <xctk:IntegerUpDown Name="snapVertical" Value="10" Increment="1" Minimum="1" Canvas.Left="140" Canvas.Top="210" Width="55"/>
+        
+        <Label Content="Window" Canvas.Left="21" Canvas.Top="251" FontWeight="Bold"/>
+
+        <Label Content="Background Color:" Canvas.Left="21" Canvas.Top="276"/>
+        <xctk:ColorPicker x:Name="windowBackgroundColor" Canvas.Left="140" Canvas.Top="278" DisplayColorAndName="True" Width="177" UsingAlphaChannel="False"  />
+
+        <Label Content="Background Image:" Canvas.Left="21" Canvas.Top="304"/>
+        <TextBox Name="windowBackgroundImage" Height="23" Canvas.Left="140" TextWrapping="NoWrap" AcceptsReturn="False" AcceptsTab="False" Canvas.Top="305" Width="370" TextChanged="windowBackgroundImage_TextChanged"/>
+        <Button Name="buttonBackgroundImage" Content="..." Canvas.Left="515" Canvas.Top="306" Width="25" Click="buttonBackgroundImage_Click"/>
+
+        <Label Content="Size:" Canvas.Left="21" Canvas.Top="351"/>
+
+        <Label Content="Width:" Canvas.Left="140" Canvas.Top="351" RenderTransformOrigin="0.489,2.038"/>
+        <xctk:IntegerUpDown Name="windowWidth" Value="800" Increment="1" Minimum="1" Canvas.Left="190" Canvas.Top="354" Width="55"/>
+        
+        <Label Content="Height:" Canvas.Left="267" Canvas.Top="351"/>
+        <xctk:IntegerUpDown Name="windowHeight" Value="600" Increment="1" Minimum="1" Canvas.Left="320" Canvas.Top="354" Width="55"/>
+
+        <Button Name="buttonOK" Content="OK" Canvas.Left="380" Canvas.Top="394" Width="75" IsDefault="True" Click="buttonOK_Click"/>
+        <Button Name="buttonCancel" Content="Cancel" Canvas.Left="460" Canvas.Top="394" Width="75" IsCancel="True" Click="buttonCancel_Click" />
+        <Button Name="buttonSizeToImage" Content="Size to Image" Canvas.Left="385" Canvas.Top="354" Width="86" Click="buttonSizeToImage_Click"/>
+
+        <CheckBox x:Name="windowBackgroundVisible" Content="Background Visible" Canvas.Left="143" Canvas.Top="333"/>
+        <Separator Height="1" Canvas.Left="29" Margin="0" Canvas.Top="382" Width="506"/>
+        <Label Content="%" Canvas.Left="195" Canvas.Top="60"/>
+
+    </Canvas>
+</xctk:ChildWindow>

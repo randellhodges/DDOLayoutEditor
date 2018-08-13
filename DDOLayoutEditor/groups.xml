@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<groups>
+  <group name="Adventure Compendium" color="#669999" textColor="#000000" allowResize="false">
+    <item layoutID="0x220005DC" id="AdventureCompendium_Field" name="Adventure Compendium" />
+  </group>
+  <group name="Auction" color="#330066" allowResize="false">
+    <item layoutID="0x220005DE" id="Auction_MainFieldBlackMarket" />
+    <item layoutID="0x220005DE" id="Auction_MainField" name="Auction" />
+  </group>
+  <group name="Pet Character Sheet" color="#66CC99" allowResize="false">
+    <item layoutID="0x22000739" id="PetCharacterSheet_MainField" name="Pet Character Sheet" />
+  </group>
+  <group name="Shortcuts" color="#0000FF" allowResize="false">
+    <item layoutID="0x22000069" id="*" />
+    <item layoutID="0x2200000B" id="ShortcutsBar" color="#FF00FF" />
+  </group>
+  <!--  I don't think DDO is correctly saving hireling information on the export.
+        There seems to only be one UndockedHenchmen0_Horizontal_MarkerList. Maybe
+        you need to have a group full of hirelings, then save the layout to get them
+        saved in the layout file
+   -->        
+  <group name="Hirelings (?)" color="#0000FF" allowResize="false" forceCollapse="true">
+    <item layoutID="0x220006F3" id="*" />
+  </group>
+  <group name="Character Sheet" color="#00FF00" allowResize="false">
+    <item layoutID="0x22000019" id="CharacterSheetField" name="Character Sheet" />
+  </group>
+  <group name="Epic Destinies" color="#0000FF" allowResize="false">
+    <item layoutID="0x22000858" id="EpicDesitiny_Menu" name="Epic Destinies" />
+  </group>
+  <group name="Social Panel" color="#00FF00" allowResize="true">
+    <item layoutID="0x22000076" id="SocialField" name="Social" minHeight="0.328074" minWidth="0.219733" />
+  </group>
+  <group name="Bank" color="#00FFFF" allowResize="false">
+    <item layoutID="0x2200008F" id="Guild_Bank_Field" />
+    <item layoutID="0x2200008F" id="Bank_Field" name="Bank" allowResize="false" />
+    <item layoutID="0x2200008F" id="Account_Bank_Field" name="Account Bank" allowResize="true" minHeight="0.251808" minWidth="0.192217" />
+    <item layoutID="0x2200008F" id="Reincarnation_Bank_Field" name="Reincarnation Cache" allowResize="true" minHeight="0.203813" minWidth="0.103774" />
+  </group>
+  <group name="Mail" color="#9999CC" allowResize="false">
+    <item layoutID="0x220005CB" id="Mail_MainField" name="Mail" />
+  </group>
+  <group name="Focus" color="#FFFF00" allowResize="false">
+    <item layoutID="0x2200000B" id="FocusField" />
+    <item layoutID="0x2200000B" id="FocusOrb" />
+    <item layoutID="0x2200000B" id="FocusOrb_Classic" />
+  </group>
+  <group name="Chat" color="#FF0000" allowResize="true">
+    <item layoutID="0x2200008B" id="*" minHeight="0.065089" minWidth="0.078223" />
+  </group>
+  <group name="Vitals" color="#330066" allowResize="false">
+    <item layoutID="0x2200000B" id="Vitals" />
+    <item layoutID="0x2200000B" id="Vitals_minimal" />
+    <item layoutID="0x2200000B" id="FellowshipDisplay" name="Group Vitals" />
+  </group>
+  <group name="Radar" color="#FF00FF" allowResize="false">
+    <item layoutID="0x2200009E" id="RadarField" name="Radar" />
+  </group>
+  <group name="Inventory" color="#330066" allowResize="false">
+    <item layoutID="0x22000015" id="Inventory_Field" name="Inventory" />
+  </group>
+  <group name="Dice" color="#660000" allowResize="false">
+    <item layoutID="0x220000A1" id="Dice_Field" name="Dice" />
+  </group>
+  <group name="Quests" color="#FF9900" allowResize="false">
+    <item layoutID="0x22000040" id="Quest_Field" name="Quest Journal" />
+  </group>
+  <group name="Monster Manual" color="#FF9900" allowResize="false">
+    <item layoutID="0x22000859" id="MonsterManual_Menu" name="Monster Manual" />
+  </group>
+  <group name="Web" color="#FF6699" allowResize="false">
+    <item layoutID="0x220006EE" id="Webstore_Base" name="DDO Store" />
+    <item layoutID="0x2200071C" id="MyDDO_Base" name="My DDO" />
+  </group>
+  <group name="Network Status" color="#FFFFFF" allowResize="false">
+    <item layoutID="0x2200000B" id="Hud_NetStatus_Vessel" name="Network" />
+  </group>
+  <group name="TODO" color="#FFFFFF">
+    <item layoutID="0x220006ED" id="HotStoryQuestJournal_QuestEntry" />
+    <item layoutID="0x2200004A" id="HotQuestJournal_QuestEntry" />
+    <item layoutID="0x2200084D" id="GlobalObjectives" />
+    <item layoutID="0x2200000B" id="PendingChallengeButton" />
+    <item layoutID="0x220005E3" id="ArenaScoring_SummaryPanel" />
+    <item layoutID="0x22000600" id="ArenaQueue_AdminSummaryPanel" />
+    <item layoutID="0x22000099" id="BaseOptionsField" />
+    <item layoutID="0x22000876" id="ImageRewardGallery_Menu" />
+    <item layoutID="0x22000862" id="DailiesRewardField" />
+    <item layoutID="0x2200087B" id="AirshipShowroom_Menu" />
+    <item layoutID="0x22000880" id="Augment_MainField" />
+    <item layoutID="0x22000885" id="SentientSlot_MainField" />
+    <item layoutID="0x2200000B" id="HenchmanBar" />
+    <item layoutID="0x2200087D" id="HenchmanCustomizeAI_Menu" />
+    <item layoutID="0x22000870" id="reincarnation_mainField" />
+    <item layoutID="0x22000872" id="AmenityInventory_Menu" />
+  </group>
+</groups>

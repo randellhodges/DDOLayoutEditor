@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+  <layout height="720" width="1280" backgroundColor="#D3D3D3" backgroundImage="" displayBackground="false" />
+  <grid height="10" width="10" visible="false" lineColor="#00FF00" opacity="0.5" />
+  <snap x="10" y="10" enabled="true" />
+</settings>
